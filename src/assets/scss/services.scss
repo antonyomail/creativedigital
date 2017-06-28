@@ -47,8 +47,6 @@ $block-height: 400px;
     height: $block-height;
     @include breakpoint(small down){height: 250px;
       background-color: #dbdbdb;}
-    @include breakpoint(medium down){
-      background-color: #ebebeb;}
     :hover {opacity: 0.5}
   }
   .services__mob {
