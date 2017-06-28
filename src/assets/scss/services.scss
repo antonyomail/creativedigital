@@ -1,0 +1,74 @@
+$block-height: 400px;
+
+.services {
+  outline: none;
+  text-align: center;
+  margin-top: 120px;
+
+  @include breakpoint(medium down) {
+    margin-top: 20px;
+  }
+  .services-block__gd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: $block-height;
+    background-color: #dbdbdb;
+    @include breakpoint(small down){height: 250px;}
+    :hover {opacity: 0.5}
+  }
+  .services-block__wd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    height: $block-height;
+    @include breakpoint(small down){height: 250px;}
+    :hover {opacity: 0.5}
+  }
+  .services-block__os {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c0da;
+    height: $block-height;
+    @include breakpoint(small down){display: none;}
+    :hover {opacity: 0.5}
+  }
+  .services-block__seo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    height: $block-height;
+    @include breakpoint(small down){height: 250px;
+      background-color: #dbdbdb;}
+    @include breakpoint(medium down){
+      background-color: #ebebeb;}
+    :hover {opacity: 0.5}
+  }
+  .services__mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+    height: $block-height;
+    @include breakpoint(small down){height: 250px;
+      background-color: #ebebeb;}
+    :hover {opacity: 0.5}
+  }
+  .services-block__img {
+    background-image: url("../img/services.png");
+    height: $block-height;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include breakpoint(small down){display: none;}
+    :hover {opacity: 0.5}
+  }
+}

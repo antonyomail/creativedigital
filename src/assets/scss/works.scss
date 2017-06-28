@@ -1,0 +1,29 @@
+.works {
+  outline: none;
+  background-image: url("../img/works/works-bg.png");
+  height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  .works-icon {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .works-h2 {
+    padding: 30px 0 60px;
+    text-align: center;
+    color: $header-color;
+    font-family: ProximaNovaBold;
+    text-transform: uppercase;
+  }
+  .works-slider {
+    display: flex;
+    justify-content: center;
+
+    .works-slider__component {
+      max-width: 40%;
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.about{
+  outline: none;
+.about-left {
+  margin-top: 120px;
+  @include breakpoint(medium down) {
+    margin-top: 0px;
+  }
+  background-color: #9f9acf;
+  text-align: center;
+  background-image: url("../img/about/aboutUse.png");
+  height: 550px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include breakpoint(small down){height: 250px;}
+
+  .about-left__img {
+    padding-top: 75px;
+  }
+  .about-left__h2 {
+    padding-top: 25px;
+    color: $header-color;
+    font-family: ProximaNovaSemibold;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+}
+
+.about-right {
+  margin-top: 120px;
+  @include breakpoint(medium down) {
+    margin-top: 20px;
+  }
+  .about-right__p {
+    padding-top: 80px;
+    @include breakpoint(medium down) {
+      padding-top: 10px;
+    }
+    .bold {
+      font-weight: 700;
+
+    }
+  }
+  .about-right__battom {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    .arp {
+      font-size: 20px;
+      padding: 20px 50px;
+      text-align: center;
+      font-style: italic;
+      border: solid 1px #7d7b7d;
+      cursor: pointer;
+
+    }
+  }
+
+}}

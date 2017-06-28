@@ -1,0 +1,159 @@
+.footer {
+  outline: none;
+  background-color: #9f9acf;
+  .maps-infoblock {
+    height: 0;
+    position: relative;
+    top: rem-calc(280);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .maps-h2 {
+      padding-top: rem-calc(20);
+      font-family: ProximaNovaSemibold;
+      font-size: rem-calc(36);
+      font-weight: 600;
+      color: #f9f8fc;
+    }
+    .maps-input {
+      margin-top: rem-calc(270);
+      opacity: 0.7;
+      .maps-input__name, .maps-input__email, .maps-input__message {
+        color: #ffffff;
+        font-style: italic
+      }
+      .maps-input__name, .maps-input__email {
+        height: rem-calc(55);
+      }
+      .maps-input__message {
+        height: rem-calc(200);
+
+      }
+      .maps-input__send {
+        height: rem-calc(70);
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        background-color: #9f9ccc;
+        border: none;
+        box-shadow: 0 1px 0 #7d7b7d;
+        outline: none;
+
+      }
+
+    }
+
+  }
+
+  .maps {
+    height: rem-calc(900);
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .maps-adress {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: rem-calc(680);
+
+    .adress-img__house {
+      padding: 25px;
+      background-color: #9f9ccc;
+
+
+      }
+    }
+
+    .adress-text__house {
+      padding: 10px 0 0;
+      width: rem-calc(200);
+      text-align: center;
+      background-color: #ffffff;
+      opacity: 0.7;
+      font-size: rem-calc(12);
+    }
+
+  }
+
+  .maps-phone {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: rem-calc(650);
+
+
+
+
+
+    .adress-img__phone {
+      padding: 25px 33px;
+      background-color: #9f9ccc;
+    }
+
+    .adress-text__phone {
+      padding: 10px 0 0;
+      width: rem-calc(200);
+      text-align: center;
+      background-color: #ffffff;
+      opacity: 0.7;
+      font-size: rem-calc(12);
+
+    }
+  }
+
+.bat_click.active + .bat_content {
+  display: block;}
+
+
+.bat_content {
+  display: none;
+}
+
+  .footer-social {
+    .social-copywrite {
+      color: #f9f8fc;
+    }
+    height: rem-calc(180);
+    display: flex;
+    align-items: center;
+    .footer-social__img {
+      padding: rem-calc(15);
+
+    }
+  }
+
+
+#toTop {
+  background-color: #9f9acf;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 18px;
+  text-align:center;
+  position:fixed;
+  z-index: 10;
+  bottom:25px;
+  right:35px;
+  cursor:pointer;
+  display:none;
+  opacity: 0.6;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

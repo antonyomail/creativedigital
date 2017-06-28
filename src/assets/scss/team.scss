@@ -1,0 +1,48 @@
+.team-icon {
+  margin-top: rem-calc(55);
+  margin-bottom: rem-calc(35);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include breakpoint(medium down) {
+    margin-bottom: 0px;}
+  .team-h2 {
+    padding-top: rem-calc(35);
+  }
+}
+.team-slider {
+  outline: none;
+  padding-bottom: rem-calc(100);
+  .team-slider__miguel, .team-slider__jackie, .team-slider__ida {
+    outline: none;
+    .team-slider__img {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: rem-calc(130);
+
+    }
+    .team-container {
+      padding-top: rem-calc(160);
+      background-color: #ffffff;
+      text-align: center;
+      .team-social {
+        margin-top: rem-calc(50);
+        background-color: #9f9acf;
+        display: flex;
+        justify-content: center;
+        .team-social__img {
+          padding: rem-calc(15);
+
+        }
+
+      }
+    }
+
+  }
+}
+
+a {
+  outline: none;
+}

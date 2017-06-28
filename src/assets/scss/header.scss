@@ -1,0 +1,55 @@
+.top-bar {
+  background-color: rgba(0, 0, 0, 0);
+  .top-bar-title {
+    margin-top: 30px;
+    .logo{
+      padding-left: 5px;
+    }
+  }
+  .top-bar-right {
+    margin-top: 30px;
+  }
+}
+
+.header-backgraund {
+  background-image: url("../img/2-layers.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .header-menu {
+    background-color: rgba(0, 170, 238, 0.0);
+    color: $header-color;
+    font-family: ProximaNovaSemibold;
+    text-transform: uppercase;
+    font-size: 24px;
+
+  }
+  .header-info {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $header-color;
+    @include breakpoint(medium down) {
+      margin-top: 5vh;
+    }
+    .header-h1 {
+      font-family: ProximaNovaBold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .header-p {
+      font-style: italic;
+      font-size: 2rem;
+      width: 50%;
+      text-align: center;
+      @include breakpoint(medium down) {
+        font-size: 1rem;
+      }
+
+    }
+
+  }
+}

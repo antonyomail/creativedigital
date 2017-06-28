@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url(../fonts/ProximaNova-Bold.woff);
+}
+@font-face {
+  font-family: ProximaNovaSemibold;
+  src: url(../fonts/ProximaNova-Semibold.woff);
+}
+$header-color: #fefefc;
+
+@import "header";
+@import "about";
+@import "services";
+@import "works";
+@import "team";
+@import "contacts";
+@import "components/slick";
+@import "components/slick-theme";
